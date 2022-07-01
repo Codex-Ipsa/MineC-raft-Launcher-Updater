@@ -1,0 +1,7 @@
+C:\Users\PC\source\repos\MCLauncherUpdater\MCLauncherUpdater\bin\Debug\MCLauncherUpdater.exe.config
+C:\Users\PC\source\repos\MCLauncherUpdater\MCLauncherUpdater\bin\Debug\MCLauncherUpdater.exe
+C:\Users\PC\source\repos\MCLauncherUpdater\MCLauncherUpdater\bin\Debug\MCLauncherUpdater.pdb
+C:\Users\PC\source\repos\MCLauncherUpdater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\MCLauncherUpdater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\MCLauncherUpdater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.exe
+C:\Users\PC\source\repos\MCLauncherUpdater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.pdb
