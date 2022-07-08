@@ -30,7 +30,7 @@ namespace MCLauncherUpdater
                 {
                     using (var client = new WebClient())
                     {
-                        Console.WriteLine($"[Updater] Url: {updateUrl}");
+                        //Console.WriteLine($"[Updater] Url: {updateUrl}");
                         client.DownloadFile(updateUrl, $"{currentPath}\\launcher.zip");
 
                         if (File.Exists($"{currentPath}\\MCLauncher.exe"))
