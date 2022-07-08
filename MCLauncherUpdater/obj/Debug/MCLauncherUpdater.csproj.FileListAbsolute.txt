@@ -5,3 +5,10 @@ C:\Users\PC\source\repos\MCLauncherUpdater\MCLauncherUpdater\obj\Debug\MCLaunche
 C:\Users\PC\source\repos\MCLauncherUpdater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.csproj.CoreCompileInputs.cache
 C:\Users\PC\source\repos\MCLauncherUpdater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.exe
 C:\Users\PC\source\repos\MCLauncherUpdater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.pdb
+C:\Users\David\Documents\GitHub\MineC-raft-Launcher-Updater\MCLauncherUpdater\bin\Debug\MCLauncherUpdater.exe.config
+C:\Users\David\Documents\GitHub\MineC-raft-Launcher-Updater\MCLauncherUpdater\bin\Debug\MCLauncherUpdater.exe
+C:\Users\David\Documents\GitHub\MineC-raft-Launcher-Updater\MCLauncherUpdater\bin\Debug\MCLauncherUpdater.pdb
+C:\Users\David\Documents\GitHub\MineC-raft-Launcher-Updater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.csprojAssemblyReference.cache
+C:\Users\David\Documents\GitHub\MineC-raft-Launcher-Updater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GitHub\MineC-raft-Launcher-Updater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.exe
+C:\Users\David\Documents\GitHub\MineC-raft-Launcher-Updater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.pdb
