@@ -18,52 +18,11 @@ namespace MCLauncherUpdater
 
         static void Main(string[] args)
         {
-            Console.Title = "MineC#raft Launcher updater v2.1";
-            Console.WriteLine("MineC#raft Launcher updater v2.1");
+            Console.Title = "MineC#raft Launcher updater v2.0";
+            Console.WriteLine("MineC#raft Launcher updater v2.0");
             Console.WriteLine("--------------------------------");
-
-            if (args == null || args.Length == 0)
-            {
-                logError("No -url parameter! (Error code 3)");
-                //no args
-            }
-            else
-            {
-                if (args[0] == "-url")
-                {
-                    updateUrl = args[1];
-
-                    try
-                    {
-                        using (var client = new WebClient())
-                        {
-                            client.DownloadFile(updateUrl, $"{currentPath}\\launcher.zip");
-
-                            if (File.Exists($"{currentPath}\\MCLauncher.exe"))
-                                File.Delete($"{currentPath}\\MCLauncher.exe");
-                            if (File.Exists($"{currentPath}\\Newtonsoft.Json.dll"))
-                                File.Delete($"{currentPath}\\Newtonsoft.Json.dll");
-
-                            string zipPath = $"{currentPath}\\launcher.zip";
-                            string extractPath = currentPath;
-                            ZipFile.ExtractToDirectory(zipPath, extractPath);
-
-                            File.Delete(currentPath + "\\launcher.zip");
-                        }
-                        logMessage("Update successful!");
-                        System.Diagnostics.Process.Start("MCLauncher.exe");
-                    }
-                    catch (WebException)
-                    {
-                        logError("A web exception error has occured! (Error code 1)\nPlease connect to the internet and try again.");
-                    }
-                }
-            }
-
-
-
-
-            /*if (File.Exists(updatePath))
+            
+            if(File.Exists(updatePath))
             {
                 updateUrl = File.ReadAllText(updatePath);
 
@@ -85,37 +44,31 @@ namespace MCLauncherUpdater
 
                         File.Delete(currentPath + "\\launcher.zip");
                     }
-                    logMessage("Update successful!");
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Update successful!");
+                    Console.ForegroundColor = ConsoleColor.Gray;
+                    Console.WriteLine("Press enter to close this window and run the launcher.");
+                    Console.ReadKey();
                     System.Diagnostics.Process.Start("MCLauncher.exe");
                 }
                 catch (WebException)
                 {
-                    logError("A web exception error has occured! (Error code 1)\nPlease connect to the internet and try again.");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("A web exception error has occured! (Error code 1)");
+                    Console.WriteLine("Please connect to the internet and try again.");
+                    Console.ForegroundColor = ConsoleColor.Gray;
+                    Console.WriteLine("Press enter to close this window.");
+                    Console.ReadKey();
                 }
             }
             else
             {
-                logError("Update.cfg not found! (Error code: 2)");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"[Updater] Update.cfg not found! (Error code: 2)");
+                Console.ForegroundColor = ConsoleColor.Gray;
+                Console.WriteLine("Press enter to close this window.");
+                Console.ReadKey();
             }
-        }*/
-        }
-
-        public static void logMessage(string message)
-        {
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(message);
-            Console.ForegroundColor = ConsoleColor.Gray;
-            Console.WriteLine("Press any key to close this window.");
-            Console.ReadKey();
-        }
-
-        public static void logError(string message)
-        {
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine(message);
-            Console.ForegroundColor = ConsoleColor.Gray;
-            Console.WriteLine("Press any key to close this window.");
-            Console.ReadKey();
         }
     }
 }
