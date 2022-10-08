@@ -1,1 +1,4 @@
-/MCLauncherUpdater/bin/Debug
+/MCLauncherUpdater/bin
+/MCLauncherUpdater/obj
+/.vs
+/.git
