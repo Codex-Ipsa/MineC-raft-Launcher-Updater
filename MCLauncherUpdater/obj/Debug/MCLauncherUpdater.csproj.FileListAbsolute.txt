@@ -12,3 +12,11 @@ C:\Users\David\Documents\GitHub\MineC-raft-Launcher-Updater\MCLauncherUpdater\ob
 C:\Users\David\Documents\GitHub\MineC-raft-Launcher-Updater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.csproj.CoreCompileInputs.cache
 C:\Users\David\Documents\GitHub\MineC-raft-Launcher-Updater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.exe
 C:\Users\David\Documents\GitHub\MineC-raft-Launcher-Updater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.pdb
+D:\Source Code\MineC-raft-Launcher-Updater\MCLauncherUpdater\bin\Debug\MCLauncherUpdater.exe.config
+D:\Source Code\MineC-raft-Launcher-Updater\MCLauncherUpdater\bin\Debug\MCLauncherUpdater.exe
+D:\Source Code\MineC-raft-Launcher-Updater\MCLauncherUpdater\bin\Debug\MCLauncherUpdater.pdb
+D:\Source Code\MineC-raft-Launcher-Updater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.csproj.AssemblyReference.cache
+D:\Source Code\MineC-raft-Launcher-Updater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.csproj.SuggestedBindingRedirects.cache
+D:\Source Code\MineC-raft-Launcher-Updater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.csproj.CoreCompileInputs.cache
+D:\Source Code\MineC-raft-Launcher-Updater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.exe
+D:\Source Code\MineC-raft-Launcher-Updater\MCLauncherUpdater\obj\Debug\MCLauncherUpdater.pdb
