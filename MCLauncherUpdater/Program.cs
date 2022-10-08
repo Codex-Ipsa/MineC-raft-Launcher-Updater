@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Net;
 using System.IO;
 using System.IO.Compression;
+using System.Diagnostics;
 
 namespace MCLauncherUpdater
 {
@@ -18,9 +19,14 @@ namespace MCLauncherUpdater
 
         static void Main(string[] args)
         {
-            Console.Title = "MineC#raft Launcher updater v2.1";
-            Console.WriteLine("MineC#raft Launcher updater v2.1");
+            Console.Title = "MineC#raft Launcher updater v2.2";
+            Console.WriteLine("MineC#raft Launcher updater v2.2");
             Console.WriteLine("--------------------------------");
+
+            foreach (var process in Process.GetProcessesByName("MCLauncher"))
+            {
+                process.Kill();
+            }
 
             if (args == null || args.Length == 0)
             {
