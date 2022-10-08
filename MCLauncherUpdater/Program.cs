@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Net;
 using System.IO;
 using System.IO.Compression;
+using System.Diagnostics;
 
 namespace MCLauncherUpdater
 {
@@ -21,8 +22,13 @@ namespace MCLauncherUpdater
             Console.Title = "MineC#raft Launcher updater v2.0";
             Console.WriteLine("MineC#raft Launcher updater v2.0");
             Console.WriteLine("--------------------------------");
-            
-            if(File.Exists(updatePath))
+
+            foreach (var process in Process.GetProcessesByName("MCLauncher"))
+            {
+                process.Kill();
+            }
+
+            if (File.Exists(updatePath))
             {
                 updateUrl = File.ReadAllText(updatePath);
 
