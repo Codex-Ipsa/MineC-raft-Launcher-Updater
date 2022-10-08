@@ -19,8 +19,8 @@ namespace MCLauncherUpdater
 
         static void Main(string[] args)
         {
-            Console.Title = "MineC#raft Launcher updater v2.0";
-            Console.WriteLine("MineC#raft Launcher updater v2.0");
+            Console.Title = "MineC#raft Launcher updater v2.0_01";
+            Console.WriteLine("MineC#raft Launcher updater v2.0_01");
             Console.WriteLine("--------------------------------");
 
             foreach (var process in Process.GetProcessesByName("MCLauncher"))
