@@ -17,8 +17,8 @@ namespace MCLauncherUpdater
 
         static void Main(string[] args)
         {
-            Console.Title = "MineC#raft Launcher updater v2.2";
-            Console.WriteLine("MineC#raft Launcher updater v2.2");
+            Console.Title = "Codex-Ipsa updater v2.3";
+            Console.WriteLine("Codex-Ipsa updater v2.3");
             Console.WriteLine("--------------------------------");
 
             foreach (var process in Process.GetProcessesByName("MCLauncher"))
@@ -47,6 +47,8 @@ namespace MCLauncherUpdater
                                 File.Delete($"{currentPath}\\MCLauncher.exe");
                             if (File.Exists($"{currentPath}\\Newtonsoft.Json.dll"))
                                 File.Delete($"{currentPath}\\Newtonsoft.Json.dll");
+                            if (File.Exists($"{currentPath}\\DiscordRPC.dll"))
+                                File.Delete($"{currentPath}\\DiscordRPC.dll");
 
                             string zipPath = $"{currentPath}\\launcher.zip";
                             string extractPath = currentPath;
